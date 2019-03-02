@@ -1,0 +1,26 @@
+{
+  "name": "friend-finder-app",
+  "version": "1.0.0",
+  "description": "friend finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewjthomsen/Friend-Finder-App.git"
+  },
+  "author": "Andrew Thomsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewjthomsen/Friend-Finder-App/issues"
+  },
+  "homepage": "https://github.com/andrewjthomsen/Friend-Finder-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node.js": "0.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}

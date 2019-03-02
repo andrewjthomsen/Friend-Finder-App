@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title></title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text" >First and last name</span>
+      </div>
+      <input type="text" aria-label="First name" class="form-control" id="nombre">
+      <input type="text" aria-label="Last name" class="form-control" id="last_nombre">
+    </div>
+    <!--photo input to link a photo-->
+    <!--10 questions with agree or disagree from 1-5 (dropdown of 1-5)-->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question1">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you like Thai food?</label>
+      </div>
+      <select class="custom-select" id="question1">
+        <option selected>Question 1</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+        <option value="5">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question2">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you like to wake up early?</label>
+      </div>
+      <select class="custom-select" id="question2">
+        <option selected>Question 2</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+        <option value="5">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question3">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you enjoy sports?</label>
+      </div>
+      <select class="custom-select" id="question3">
+        <option selected>Question 3</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question4">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you like the beach?</label>
+      </div>
+      <select class="custom-select" id="question4">
+        <option selected>Question 4</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question5">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you enjoy partying?</label>
+      </div>
+      <select class="custom-select" id="question5">
+        <option selected>Question 5</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question6">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you enjoy being in school?</label>
+      </div>
+      <select class="custom-select" id="question6">
+        <option selected>Question 6</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question7">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you enjoy homework?</label>
+      </div>
+      <select class="custom-select" id="question7">
+        <option selected>Question 7</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question8">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you enjoy coding?</label>
+      </div>
+      <select class="custom-select" id="question8">
+        <option selected>Question 8</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question9">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you like video games?</label>
+      </div>
+      <select class="custom-select" id="question9">
+        <option selected>Question 9</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">Five</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="question10">From 1-5, 1 being strongly disagree and 5 being strongly agree, how much do you enjoy fast food?</label>
+      </div>
+      <select class="custom-select" id="question10">
+        <option selected>Question 10</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+        <option value="5">Five</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary btn-lg" id="submit-btn">Large button</button>
+  </div>
+  <div id="results">
+    <div><h1 id="matchName"></h1><img id="match-img" src=""></div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
