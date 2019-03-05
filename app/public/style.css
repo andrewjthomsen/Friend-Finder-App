@@ -1,0 +1,11 @@
+body {
+background-image: url("https://ak0.picdn.net/shutterstock/videos/18601070/thumb/1.jpg?i10c=img.resize(height:160)");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.card{
+    margin-top: 200px;
+    opacity: 0.7;
+}

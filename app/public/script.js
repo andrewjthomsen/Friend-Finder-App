@@ -1,4 +1,3 @@
-
 $("#submit-btn").on("click", function (event) {
     event.preventDefault();
     var userAnswers = {
@@ -8,8 +7,10 @@ $("#submit-btn").on("click", function (event) {
         ]
     };
     $.post("/api/friends", userAnswers, function (data) {
+        console.log("I am posted");
         $("#matchName").text(data.name)
         $("#match-img").attr("src", data.photo)
+        // $("#match-img").attr("id", "matchPhoto")
     });
 
 });

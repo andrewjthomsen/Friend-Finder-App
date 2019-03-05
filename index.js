@@ -5,6 +5,7 @@ var bodyParser = require("body-parser");
 // path
 var path = require('path');
 var app = express();
+var dir = path.join(__dirname, 'public');
 
 // Sets up the Express app to handle data parsing
 //changed to true
