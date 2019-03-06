@@ -5,7 +5,13 @@ background-size: cover;
 }
 
 
-.card{
+.card {
     margin-top: 200px;
     opacity: 0.7;
+}
+
+.input-group-text {
+    max-width: 75vw;
+    overflow: auto;
+    white-space: normal;
 }
