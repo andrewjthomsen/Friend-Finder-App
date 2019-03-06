@@ -15,3 +15,9 @@ background-size: cover;
     overflow: auto;
     white-space: normal;
 }
+
+@media screen and (min-width: 800px) {
+    .input-group-text {
+        min-width: 775px;
+    }
+}
